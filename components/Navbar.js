@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Navbar = () => (
   <nav className="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
-    <a className="navbar-brand" href="#">
+    <a className="navbar-brand" href="/">
       Bitzchecker
     </a>
     <button
