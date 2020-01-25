@@ -1,4 +1,4 @@
-import Select from "./Select";
+import SelectCurrency from "./SelectCurrency";
 
 class Prices extends React.Component {
   state = {
@@ -14,8 +14,8 @@ class Prices extends React.Component {
   render() {
     return (
       <div>
-        <Select onSelect={this.onSelect} />
-        <ul className="list-group pt-2">
+        <SelectCurrency onClick={this.onSelect} value={this.state.currency} />
+        <ul className="list-group pt-4">
           <li className="list-group-item">
             Bitcoin rate for {this.props.bpi[this.state.currency].description}:
             <span className="badge badge-primary ml-2">

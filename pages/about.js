@@ -3,7 +3,7 @@ import Layout from "../components/Layout";
 const Index = () => (
   <Layout>
     <div>
-      <h1>About Bit prices</h1>
+      <h1>About Bitzchecker</h1>
     </div>
   </Layout>
 );
