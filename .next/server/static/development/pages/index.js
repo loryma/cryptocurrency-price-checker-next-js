@@ -167,78 +167,108 @@ const Layout = props => __jsx("div", {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
 var _jsxFileName = "/mnt/c/Users/Mila/Documents/next-js-crach-course/components/Navbar.js";
 
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
-
-const Navbar = () => __jsx("div", {
-  className: "jsx-1189798083",
+const Navbar = () => __jsx("nav", {
+  className: "navbar navbar-expand-lg navbar-dark bg-dark mb-4",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 4
   },
   __self: undefined
-}, __jsx("ul", {
-  className: "jsx-1189798083",
+}, __jsx("a", {
+  className: "navbar-brand",
+  href: "#",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 5
   },
   __self: undefined
-}, __jsx("li", {
-  className: "jsx-1189798083",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 6
-  },
-  __self: undefined
-}, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-  href: "/",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 7
-  },
-  __self: undefined
-}, __jsx("a", {
-  className: "jsx-1189798083",
+}, "Bitzchecker"), __jsx("button", {
+  className: "navbar-toggler",
+  type: "button",
+  "data-toggle": "collapse",
+  "data-target": "#navbarColor02",
+  "aria-controls": "navbarColor02",
+  "aria-expanded": "false",
+  "aria-label": "Toggle navigation",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 8
   },
   __self: undefined
-}, "Home"))), __jsx("li", {
-  className: "jsx-1189798083",
+}, __jsx("span", {
+  className: "navbar-toggler-icon",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 11
+    lineNumber: 17
   },
   __self: undefined
-}, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-  href: "/about",
+})), __jsx("div", {
+  className: "collapse navbar-collapse",
+  id: "navbarColor02",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 12
+    lineNumber: 20
+  },
+  __self: undefined
+}, __jsx("ul", {
+  className: "navbar-nav ml-auto",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 21
+  },
+  __self: undefined
+}, __jsx("li", {
+  className: "nav-item active",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 22
+  },
+  __self: undefined
+}, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  href: "/",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 23
   },
   __self: undefined
 }, __jsx("a", {
-  className: "jsx-1189798083",
+  className: "nav-link",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 13
+    lineNumber: 24
   },
   __self: undefined
-}, "About")))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-  id: "1189798083",
+}, "Home"))), __jsx("li", {
+  className: "nav-item",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 27
+  },
   __self: undefined
-}, "ul.jsx-1189798083{background:#333;color:white;list-style:none;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}ul.jsx-1189798083 li.jsx-1189798083{font-size:18px;margin-right:20px;}ul.jsx-1189798083 li.jsx-1189798083 a.jsx-1189798083{color:white;-webkit-text-decoration:none;text-decoration:none;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9tbnQvYy9Vc2Vycy9NaWxhL0RvY3VtZW50cy9uZXh0LWpzLWNyYWNoLWNvdXJzZS9jb21wb25lbnRzL05hdmJhci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFpQk8sQUFHMkIsQUFPRCxBQUtILFlBQ1MsR0FMSCxDQVBOLFlBQ0ksS0FPbEIsV0FOZSxrQkFXZix3REFWQSIsImZpbGUiOiIvbW50L2MvVXNlcnMvTWlsYS9Eb2N1bWVudHMvbmV4dC1qcy1jcmFjaC1jb3Vyc2UvY29tcG9uZW50cy9OYXZiYXIuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTGluayBmcm9tIFwibmV4dC9saW5rXCI7XHJcblxyXG5jb25zdCBOYXZiYXIgPSAoKSA9PiAoXHJcbiAgPGRpdj5cclxuICAgIDx1bD5cclxuICAgICAgPGxpPlxyXG4gICAgICAgIDxMaW5rIGhyZWY9XCIvXCI+XHJcbiAgICAgICAgICA8YT5Ib21lPC9hPlxyXG4gICAgICAgIDwvTGluaz5cclxuICAgICAgPC9saT5cclxuICAgICAgPGxpPlxyXG4gICAgICAgIDxMaW5rIGhyZWY9XCIvYWJvdXRcIj5cclxuICAgICAgICAgIDxhPkFib3V0PC9hPlxyXG4gICAgICAgIDwvTGluaz5cclxuICAgICAgPC9saT5cclxuICAgIDwvdWw+XHJcbiAgICA8c3R5bGUganN4PlxyXG4gICAgICB7YFxyXG4gICAgICAgIHVsIHtcclxuICAgICAgICAgIGJhY2tncm91bmQ6ICMzMzM7XHJcbiAgICAgICAgICBjb2xvcjogd2hpdGU7XHJcbiAgICAgICAgICBsaXN0LXN0eWxlOiBub25lO1xyXG4gICAgICAgICAgZGlzcGxheTogZmxleDtcclxuICAgICAgICB9XHJcblxyXG4gICAgICAgIHVsIGxpIHtcclxuICAgICAgICAgIGZvbnQtc2l6ZTogMThweDtcclxuICAgICAgICAgIG1hcmdpbi1yaWdodDogMjBweDtcclxuICAgICAgICB9XHJcblxyXG4gICAgICAgIHVsIGxpIGEge1xyXG4gICAgICAgICAgY29sb3I6IHdoaXRlO1xyXG4gICAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xyXG4gICAgICAgIH1cclxuICAgICAgYH1cclxuICAgIDwvc3R5bGU+XHJcbiAgPC9kaXY+XHJcbik7XHJcblxyXG5leHBvcnQgZGVmYXVsdCBOYXZiYXI7XHJcbiJdfQ== */\n/*@ sourceURL=/mnt/c/Users/Mila/Documents/next-js-crach-course/components/Navbar.js */"));
+}, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  href: "/about",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 28
+  },
+  __self: undefined
+}, __jsx("a", {
+  className: "nav-link",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 29
+  },
+  __self: undefined
+}, "About"))))));
 
 /* harmony default export */ __webpack_exports__["default"] = (Navbar);
 
@@ -297,7 +327,7 @@ class Prices extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       },
       __self: this
     }), __jsx("ul", {
-      className: "list-group",
+      className: "list-group pt-2",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 18
@@ -311,7 +341,7 @@ class Prices extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       },
       __self: this
     }, "Bitcoin rate for ", this.props.bpi[this.state.currency].description, ":", __jsx("span", {
-      className: "badge badge-primary",
+      className: "badge badge-primary ml-2",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 21
@@ -350,36 +380,44 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 const Select = ({
   value,
   onSelect
-}) => __jsx("select", {
+}) => __jsx("div", {
+  className: "form-group d-md-inline-block",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 2
+  },
+  __self: undefined
+}, __jsx("select", {
+  className: "custom-select",
   value: value,
   onChange: onSelect,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 2
+    lineNumber: 3
   },
   __self: undefined
 }, __jsx("option", {
   value: "USD",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 3
+    lineNumber: 4
   },
   __self: undefined
 }, "USD"), __jsx("option", {
   value: "GBP",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 4
+    lineNumber: 5
   },
   __self: undefined
 }, "GBP"), __jsx("option", {
   value: "EUR",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 5
+    lineNumber: 6
   },
   __self: undefined
-}, "EUR"));
+}, "EUR")));
 
 /* harmony default export */ __webpack_exports__["default"] = (Select);
 
@@ -2091,6 +2129,7 @@ const Index = props => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_2__["de
   },
   __self: undefined
 }, __jsx("h1", {
+  className: "mb-4",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 9
@@ -2254,17 +2293,6 @@ module.exports = require("react");
 /***/ (function(module, exports) {
 
 module.exports = require("react-is");
-
-/***/ }),
-
-/***/ "styled-jsx/style":
-/*!***********************************!*\
-  !*** external "styled-jsx/style" ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("styled-jsx/style");
 
 /***/ }),
 
